@@ -23,7 +23,7 @@ $(document).ready(function  (e){
 		 function onSucces(position){
 			 
 			 alert('Latitude: '    +position.coords.latitude     +'\n'+
-			   'Longitude:  '     +positions.coords.longitude     +'\n');
+			   'Longitude:  '     +position.coords.longitude     +'\n');
 		 };
 		 
 		 function onError(error){
