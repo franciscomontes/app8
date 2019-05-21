@@ -5,7 +5,7 @@ $(document).ready(function  (e){
 
 });
 		
-		function onDEviceReady(){
+		function onDeviceReady(){
 			
 		$('#posicion').on('click',function(){
 			getPosition ();
@@ -27,6 +27,6 @@ $(document).ready(function  (e){
 		 };
 		 
 		 function onError(error){
-			 alert('code: '   +error.code   +'\n'+ 'message:' +error.message +'\n');
+			 alert('code: '   +error.code   +'\n'+ 'message:' + error.message +'\n');
 		 }
 	   }
