@@ -16,7 +16,7 @@ Muestra la ubicacion del dispositivo de acuerdo al GPS y en el mapa dde google m
    </author>
    
    <!--personaliza la aplicacion y plataforma -->
- <preference name ="orientation"  value="default"/> -->
+ <preference name ="orientation"  value="default"/> 
  <preference name = "target-device" value= "universal"/>
  <preference name = "fullscreen" value = "true"/> 
  <preference name = "android-installLocation" value="auto"/>
